@@ -8,6 +8,7 @@ class Solution:
 
             if total == target:
                 return [l + 1, r + 1]
+                break
 
             elif total < target:
                 l += 1
