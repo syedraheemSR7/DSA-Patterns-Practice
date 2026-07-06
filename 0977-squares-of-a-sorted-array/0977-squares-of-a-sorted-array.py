@@ -5,7 +5,7 @@ class Solution:
 
         left = 0
         right = n-1
-        index = n-1
+        index = n-1 # store from last (0,0,0,100)
 
         while left <= right:
             if abs(nums[left]) > abs(nums[right]):
